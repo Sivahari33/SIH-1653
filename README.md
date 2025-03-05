@@ -11,16 +11,79 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+The Intelligent Interview Management System (IIMS) streamlines the interview process, makes it fairer, and efficient by employing AI to generate applicable questions, analyze answers, and give feedback.
 
+Key Features:
+1.Custom Questions:AI generates questions for the interview based on the resume of the candidate and the job position.
+
+2.Real-Time Response Evaluation:AI scores answers in real-time, analyzing relevance and quality.
+
+3.Objective Scoring:Candidates receive an overall score from their answers.
+Experts can even score the relevance of their questions.
+
+4.Instant Feedback:The candidates are given immediate feedback on each response.
+
+5.Post-Interview Reports: An in-depth report is produced with scores and feedback for the candidate as well as the hiring team
 
 ## Proposed Solution / Architecture Diagram
-
++---------------------------+
+|  User Interface (UI)      |
+|  (Boardroom Simulation)   |
++------------+--------------+
+             |
+             v
++---------------------------+
+|  AI Question Generator    |
+|  (NLP & ML-based)         |
++------------+--------------+
+             |
+             v
++---------------------------+
+|  Response Evaluation      |
+|  (AI-driven Scoring)      |
++------------+--------------+
+             |
+             v
++---------------------------+
+|  Expert Dashboard         |
+|  (Real-time Scores)       |
++------------+--------------+
+             |
+             v
++---------------------------+
+|  Final Scoring &          |
+|  Suitability Assessment   |
++---------------------------+
 
 ## Use Cases
-
+[Candidate]                    [Expert Panel]
+         |                                |
+   ------------------                -------------------
+  | Apply for Interview |          | View Candidate Scores |
+  | Attend Interview   |          | Finalize Selection    |
+   ------------------                -------------------
+         |                                |
+         |                                |
+     -------------------------------
+    |    AI System (Processes)        |
+    |  - Generate Questions           |
+    |  - Evaluate Responses           |
+     -------------------------------
 
 ## Technology Stack
-
+React.js, Tailwind CSS
+Python or Node.js
+PostgreSQL, MongoDB
+TensorFlow, OpenAI GPT, BERT 
+AWS S3, Google Cloud, Docker 
+OAuth 2.0, JWT, SSL/TLS Encryption
 
 ## Dependencies
 
+Frontend-3 weeks
+Backend-4 weeks
+AI & NLP-5 weeks
+Database-2 weeks
+Cloud & Deployment-2 weeks
+security-1 week
+budget-Rs:1Lakh
