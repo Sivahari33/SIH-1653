@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:05-03-2025
+## Register Number:212224220103
+## Name: SIVAHARIBALAN KARTHIKEYAN
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -26,49 +26,11 @@ Experts can even score the relevance of their questions.
 5.Post-Interview Reports: An in-depth report is produced with scores and feedback for the candidate as well as the hiring team
 
 ## Proposed Solution / Architecture Diagram
-+---------------------------+
-|  User Interface (UI)      |
-|  (Boardroom Simulation)   |
-+------------+--------------+
-             |
-             v
-+---------------------------+
-|  AI Question Generator    |
-|  (NLP & ML-based)         |
-+------------+--------------+
-             |
-             v
-+---------------------------+
-|  Response Evaluation      |
-|  (AI-driven Scoring)      |
-+------------+--------------+
-             |
-             v
-+---------------------------+
-|  Expert Dashboard         |
-|  (Real-time Scores)       |
-+------------+--------------+
-             |
-             v
-+---------------------------+
-|  Final Scoring &          |
-|  Suitability Assessment   |
-+---------------------------+
+![image](https://github.com/user-attachments/assets/8ed77648-d710-42e2-9ed6-28376f5a5dbb)
 
 ## Use Cases
-[Candidate]                    [Expert Panel]
-         |                                |
-   ------------------                -------------------
-  | Apply for Interview |          | View Candidate Scores |
-  | Attend Interview   |          | Finalize Selection    |
-   ------------------                -------------------
-         |                                |
-         |                                |
-     -------------------------------
-    |    AI System (Processes)        |
-    |  - Generate Questions           |
-    |  - Evaluate Responses           |
-     -------------------------------
+![image](https://github.com/user-attachments/assets/e1d1171c-cf54-4181-8d10-323c3c7f7c92)
+
 
 ## Technology Stack
 React.js, Tailwind CSS
